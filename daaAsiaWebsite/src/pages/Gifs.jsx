@@ -1,9 +1,8 @@
 import React from "react";
 
-export default function Introduction() {
+export default function () {
   return (
     <div>
-      <h1>daa-introduction here</h1>
       <div>
         {React.createElement("dotlottie-player", {
           src: "https://lottie.host/a4bf4c43-b7eb-41dd-adda-1c01b6e5bafc/SJlNhdpXxW.json",

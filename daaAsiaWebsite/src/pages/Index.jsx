@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/Header";
-import Introduction from "./Introduction";
+import LandingPage from "./LandingPage";
 
 export default function Index() {
   return (
     <div>
       <Header />
-      <Introduction />
+      <LandingPage />
     </div>
   );
 }
