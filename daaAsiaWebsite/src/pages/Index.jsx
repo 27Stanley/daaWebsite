@@ -5,7 +5,6 @@ import LandingPage from "./LandingPage";
 export default function Index() {
   return (
     <div>
-      <Header />
       <LandingPage />
     </div>
   );

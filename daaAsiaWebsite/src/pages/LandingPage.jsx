@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/LandingPage.css";
 
-export default function Introduction() {
+export default function LandingPage() {
   return (
     <div id="menu">
       <div id="menu-items">
@@ -17,6 +17,7 @@ export default function Introduction() {
         <a href="/" className="menu-item">
           About Us
         </a>
+
         <h1>daa-introduction here</h1>
       </div>
       <div className="landing-page-pattern"></div>
