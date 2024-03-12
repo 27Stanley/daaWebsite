@@ -8,12 +8,15 @@ import "./App.css";
 
 import NewsAndEvents from "./pages/NewsAndEvents";
 import Discover3D3 from "../src/pages/Discover";
-import EducationAndSocial from "../src/pages/Education";
+import EducationAndSocial from "./pages/Education";
 import AboutUs from "../src/pages/About";
 
 // ----------------------------------------------------------------
 
 import AllNews from "./pages/AllNews";
+import Blog from "./pages/Blog";
+import Company from "./pages/Company";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,6 +35,9 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         {/* -------------------------------------------------- */}
         <Route path="/all-news" element={<AllNews />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/company" element={<Company />}></Route>
+        <Route path="/contact-us" element={<ContactUs />}></Route>
       </Routes>
     </BrowserRouter>
   );
