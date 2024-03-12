@@ -1,22 +1,23 @@
 import React from "react";
 import "../styles/LandingPage.css";
+import { Link } from "react-router-dom";
 
 export default function LandingPage() {
   return (
     <div id="menu">
       <div id="menu-items">
-        <a href="/" className="menu-item">
+        <Link to="/news-and-events" className="menu-item">
           News and Events
-        </a>
-        <a href="/" className="menu-item">
-          Discover - 3D3 and Dental Aligner
-        </a>
-        <a href="/" className="menu-item">
+        </Link>
+        <Link to="/discover-3d3-and-dental-aligners" className="menu-item">
+          Discover - 3D3 and Dental Aligners
+        </Link>
+        <Link to="/education-and-social" className="menu-item">
           Education - Social
-        </a>
-        <a href="/" className="menu-item">
+        </Link>
+        <Link to="/about-us" className="menu-item">
           About Us
-        </a>
+        </Link>
 
         <h1>daa-introduction here</h1>
       </div>
